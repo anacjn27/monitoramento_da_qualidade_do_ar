@@ -29,7 +29,7 @@ def classificar_IQA(iqa):
 
 #equação para o IQA
     
-def calcular_IQA(C, Cf, Ci, If, Ii):
+ def calcular_IQA(C, Cf, Ci, If, Ii):
     Ip = ((If - Ii) / (Cf - Ci)) * (C - Ci) + Ii
     return Ip
 
