@@ -38,7 +38,8 @@ resultados = {}
 #constantes e variáveis da equação
 for nome, dados in data.items():
         media_valor = sum(dados) / len(dados)
-        Cf, Ci, If, Ii = 300, 0, 500, 0
+
+Cf, Ci, If, Ii = 300, 0, 500, 0
 
 #resultado
 Ip = calcular_IQA(media_valor, Cf, Ci, If, Ii)
